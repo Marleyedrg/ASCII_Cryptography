@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.msg {
+    color: rgba(25, 25, 25);
+}
+
+.msg>.purple {
+    background-color: rgb(171, 22, 240)
+}
+
+.msg>.green {
+    background-color: rgb(63, 238, 19)
+}
+
+#message {
+    font-size: 11.7pt;
+    background-color: rgb(25, 25, 25);
+    color: rgb(209, 206, 206);
+    border-radius: 13px;
+
+    padding: 8px;
+    margin: 0;
+    height: 300px;
+    width: 600px;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+
+
+}
+
+button {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    border: 0;
+    width: 80px;
+    height: 60px;
+    align-self: end;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgba(25, 25, 25, 0.932);
+    color: rgba(255, 255, 255, 0.911);
+    cursor: pointer;
+}
+
+div>p {
+    max-width: 250px;
+    background-color: yellow;
+    text-align: center;
+    margin: 0 0 2px 0;
+}
+
+p>span {
+    display: block;
+    background-color: rgb(243, 243, 63);
+}
+
+@media(max-width: 800px) {
+    .card>h1 {
+        text-align: center;
+    }
+
+    #message {
+        font-size: 11.7pt;
+        background-color: rgb(25, 25, 25);
+        color: rgb(209, 206, 206);
+        border-radius: 13px;
+
+        padding: 8px;
+        margin: 0;
+        height: 150px;
+        width: 300px;
+
+    }
+}
