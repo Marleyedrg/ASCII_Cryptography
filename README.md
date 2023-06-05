@@ -1,7 +1,7 @@
 # ASCII_Cryptography
 
- trying to make a cryptographic code without knowing anything about cryptography and with the basics I already learned about JavaScript.
+A cryptographic code without with the basics I already learned about JavaScript.
 
- just simple encryption that converts your message to ASCII and then applies an expression.
+just simple encryption that converts your message to ASCII and then applies an expression.
  
- https://marleyedrg.github.io/ASCII_Cryptography/
+https://marleyedrg.github.io/ASCII_Cryptography/
