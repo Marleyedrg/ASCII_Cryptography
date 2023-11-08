@@ -43,8 +43,11 @@ body {
 
     padding: 8px;
     margin: 0;
-    height: 300px;
-    width: 600px;
+    max-height: 300px;
+    max-width: 600px;
+    
+    min-height: 150px;
+    min-width: 300px;
 
 }
 
